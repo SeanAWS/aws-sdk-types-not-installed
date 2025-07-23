@@ -19,7 +19,7 @@ Dep not in the package.json
 cat node_modules/@aws-sdk/client-s3/package.json | grep @smithy/signature-v4
 ```
 
-But is is installed in the core
+But it is installed in the core package
 
 ```
 cat node_modules/@aws-sdk/core/package.json | grep @smithy/signature-v4
